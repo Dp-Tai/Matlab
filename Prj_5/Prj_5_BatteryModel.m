@@ -7,5 +7,15 @@ R_discharge = data(:,4);
 % input
 
 I = 2.3;
-CN = 2.3;
+CN = 2.3*100;
+
+Charge_Flag = 1;
+
+% Plot 
+
+plot(SOC,R_charge)
+
+
+
+
 
